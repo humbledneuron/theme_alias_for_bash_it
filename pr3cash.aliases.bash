@@ -22,6 +22,11 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias _='sudo'
 
+#python
+alias pi='pip install '
+alias pvv='python3 -m venv .venv'
+alias pyact='source .venv/bin/activate'
+
 #apt
 alias _dua='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias _ad='_ apt update'
